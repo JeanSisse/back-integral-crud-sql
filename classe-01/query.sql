@@ -3,8 +3,8 @@ DROP TABLE IF EXISTS "usuarios";
 CREATE TABLE "usuarios" (
   id SERIAL,
   nome text NOT NULL,
-  idade integer NULL,
-  email varchar(80) NOT NULL,
+  idade integer,
+  email varchar(80),
   senha varchar(8) NOT NULL
 );
 
